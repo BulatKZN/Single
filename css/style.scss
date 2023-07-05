@@ -9,6 +9,7 @@ body {
         background-image: url(/img/header/bgc_main_page.jpg);
         background-repeat: no-repeat;
         padding-top: 30px;
+        margin-bottom: 179px;
 
         .menu {
             display: flex;
@@ -111,7 +112,23 @@ body {
     }
 
     .achievements {
-        .achievements-title {}
+        .achievements-title {
+            display: flex;
+            align-items: center;
+
+            .achievements-title-logo {
+                margin-right: 30px;
+            }
+
+            .achievements-title-text {
+                color: #fff;
+                font-size: 48px;
+                font-weight: 700;
+            }
+
+        }
+
+        .achievements-base {}
     }
 }
 
